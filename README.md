@@ -34,7 +34,7 @@ npm i
 
 > [!NOTE]
 > Before running the script make sure you have `interviewers.json` and `respondents.json`, both written in the format:
-> ```[json]
+> ```
 > [
 >    "Name1 Surname1",
 >    "Name2 Surname2",

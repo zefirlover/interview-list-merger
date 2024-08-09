@@ -53,6 +53,11 @@ export class Functions {
     for (let i = 0; i < interviewers.length; i++) {
       let interviewer = interviewers[i];
       let respondent = respondents[i];
+      
+      if (interviewer === respondent) {
+        respondents.push(respondents.splice(i, 1)[0]);
+        respondent = respondents[i];
+      }
       mergedArray.push({ interviewer: interviewer, respondent: respondent });
     }
 

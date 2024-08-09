@@ -1,7 +1,7 @@
 import ExcelJS from 'exceljs';
 import { Functions } from './functions.js';
-import respondents from './respondents.json' assert { type: 'json' };
-import interviewers from './interviewers.json' assert { type: 'json' };
+import respondents from './input-data/respondents.json' assert { type: 'json' };
+import interviewers from './input-data/interviewers.json' assert { type: 'json' };
 
 const functions = new Functions();
 
